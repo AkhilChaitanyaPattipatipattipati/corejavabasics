@@ -18,24 +18,29 @@ public class Employee {
     public String getName() {
         return name;
     }
-    public void m1(){
-        System.out.println(this.name);
+
+    public void m1() {
+        System.out.println ( this.name );
     }
 
-
-
-   @Override
+   /* @Override
     public int hashCode() {
 
-        return Objects.hash(id,name);
+        return Objects.hash ( getId (), getName () );
+    }*/
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash ( name );
     }
 
-  /* public boolean equals(Object o) {
+    public boolean equals(Object o) {
 
-        Employee e1=this;
-        Employee e3 =(Employee) o;
-        return e1.id == e3.id ;
-    }*/
+        Employee e1 = this;
+        Employee e2 = (Employee) o;
+        return (e1.id == e2.id);
+    }
 
     @Override
     public String toString() {

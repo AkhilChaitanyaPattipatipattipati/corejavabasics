@@ -7,8 +7,9 @@ import java.util.List;
 
 public class ForLoopExample {
     public static void main(String[] args) {
-        List<Employee> data=prepareEmployeeList();
-        removeElementByByIndex(data,2);
+        List<Employee> employeeList=prepareEmployeeList();
+        removeElementByByIndex(employeeList,2);
+        int k=value();
     }
 
     public static void removeElementByByIndex(List<Employee> data,int index) {
@@ -18,6 +19,9 @@ public class ForLoopExample {
             }
         }
         System.out.println(data);
+    }
+    public static int value(){
+        return  10;
     }
 
     private static List<Employee> prepareEmployeeList() {

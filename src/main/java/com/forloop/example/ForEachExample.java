@@ -10,7 +10,9 @@ public class ForEachExample {
 
         List<Employee> data = prepareEmployeeList();
         Employee e = findEmployeeById(data, 10);
+        Employee e4 = findEmployeeById(data, 12);
         System.out.println(e);
+        System.out.println(e4);
     }
 
     public static Employee findEmployeeById(List<Employee> data, int id) {

@@ -7,7 +7,7 @@ import java.util.Set;
 public class Test {
     public static void main(String[] args) {
         Employee e1=new Employee(1,"ranga");
-        Employee e2=new Employee(1,"raju");
+        Employee e2=new Employee(2,"ranga");
         System.out.println(e1==e2);
         System.out.println(e1.equals(e2));//Object equals e1==e2
         System.out.println(e1.hashCode());

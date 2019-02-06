@@ -11,7 +11,7 @@ public class Test {
 
         //Connection con=new SQLServerConnection("sqlserver");
        // con=new OracleConnection("oracle");
-        //con=new MySqlConnection("mysql");
+        con=new MySqlConnection("mysql");
         System.out.println(con.toString());
     }
 }

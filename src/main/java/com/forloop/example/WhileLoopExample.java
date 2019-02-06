@@ -32,7 +32,7 @@ public class WhileLoopExample {
     }
 
     private static List<Employee> prepareEmployeeList() {
-        List<Employee> data=new ArrayList<>();
+        List<Employee> data=new ArrayList<Employee>();
         data.add(new Employee(10,"ranga",1000));
         data.add(new Employee(11,"raju",2000));
         data.add(new Employee(12,"kiran",3000));

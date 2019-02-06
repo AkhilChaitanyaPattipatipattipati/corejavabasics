@@ -23,7 +23,7 @@ public class OOPSDemo {
     }
     public void m1(OOPSDemo a1){
         System.out.println(this.x);
-        System.out.println(a1.x);//20
+        System.out.println(a1.x);
         m2();
         System.out.println(OOPSDemo.y);
         System.out.println("I am in method m1");

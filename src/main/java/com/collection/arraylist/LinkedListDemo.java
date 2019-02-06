@@ -5,7 +5,7 @@ import java.util.TreeSet;
 
 public class LinkedListDemo {
     public static void main(String[] args) {
-        LinkedList <Integer> ll=new LinkedList();
+        LinkedList<Integer> ll=new LinkedList();
         ll.add(10);//10
         ll.addFirst(5);//5,10
         ll.addFirst(1);//1,5,10
